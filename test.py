@@ -1,5 +1,7 @@
-num = 67.5
+string = "dogs are eating dicks"
+string2 = "d"
 
-rounded = round(num, 2)
-
-print(f"{rounded: .2f}")
+if string2 not in string:
+    print("nope")
+else:
+    print("yep")
