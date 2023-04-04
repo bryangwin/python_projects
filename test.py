@@ -1,7 +1,5 @@
-string = "dogs are eating dicks"
-string2 = "d"
+i = 11
 
-if string2 not in string:
-    print("nope")
-else:
-    print("yep")
+while i > 10:
+    print(i)
+    i += 1

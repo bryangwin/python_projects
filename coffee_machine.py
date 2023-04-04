@@ -38,12 +38,13 @@ coins = {
     "penny": 0.01,
 }
 
+
 def check_resources(choice):
     for item in MENU[choice]["ingredients"]:
         if (MENU[choice]["ingredients"][item]) > resources[item]:
             return "Sorry, we do no have that available currently."
-            
-        
+
+
 def check_money_amount(choice, money_inserted):
     if MENU[choice]["cost"] > money_inserted:
         print("You have insufficient funds. Here is your money back.")
@@ -53,19 +54,22 @@ def check_money_amount(choice, money_inserted):
         resources["money"] += MENU[choice]["cost"]
         print(f"Your change is: ${round(change, 2)}")
         return True
-        
+
+
 def make_drink(choice):
     for item in MENU[choice]["ingredients"]:
         resources[item] -= MENU[choice]["ingredients"][item]
     return f"Here is your {choice}. Enjoy!"
-    
+
+
 while True:
-    choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
+    choice = input(
+        "What would you like? (espresso/latte/cappuccino): ").lower()
 
     if choice == "off":
         print("The machine is powering down. Goodbye")
         break
-        
+
     elif choice == "report":
         print(f"Water: {resources['water']}")
         print(f"Mile: {resources['milk']}")
@@ -73,8 +77,8 @@ while True:
         print(f"Money: ${resources['money']}")
     else:
         check_resources(choice)
-        
-    money_inserted = 0.0    
+
+    money_inserted = 0.0
     print("Please insert coins.")
     hm_quarters = int(input("How many quarters? "))
     money_inserted += hm_quarters * .25
@@ -89,9 +93,3 @@ while True:
     if money == True:
         drink_made = make_drink(choice)
         print(drink_made)
-    
-
-
-
-    
-    
