@@ -1,5 +1,8 @@
-i = 11
+import random
 
-while i > 10:
-    print(i)
-    i += 1
+computer_choice = f"{random.randint(1, 3)} {random.randint(1, 3)}"
+print(f"The computer chooses {computer_choice}")
+
+row, col = map(int, computer_choice.split())
+
+print(row, col)
