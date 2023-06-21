@@ -1,0 +1,83 @@
+[
+    {
+      "question": "What is Active Directory?",
+      "answer": "Active Directory is a directory service developed by Microsoft that provides centralized authentication and authorization for Windows-based computers."
+    },
+    {
+      "question": "What is a domain controller?",
+      "answer": "A domain controller is a server that manages network security and authentication, as well as controls access to network resources."
+    },
+    {
+      "question": "What is a forest?",
+      "answer": "A forest is a collection of one or more Active Directory domains that share a common schema, configuration, and global catalog."
+    },
+    {
+      "question": "What is a site?",
+      "answer": "A site is a collection of IP subnets that are connected by a high-speed link, such as a local area network (LAN)."
+    },
+    {
+      "question": "What is a domain?",
+      "answer": "A domain is a logical grouping of network objects, including users, computers, and resources, that share a common namespace."
+    },
+    {
+      "question": "What is a trust?",
+      "answer": "A trust is a relationship that allows users from one domain to access resources in another domain."
+    },
+    {
+      "question": "What is replication?",
+      "answer": "Replication is the process of copying Active Directory data between domain controllers to ensure that changes made in one location are propagated throughout the network."
+    },
+    {
+      "question": "What is the Global Catalog?",
+      "answer": "The Global Catalog is a distributed data repository that contains a searchable, read-only copy of all objects in a forest."
+    },
+    {
+      "question": "What is LDAP?",
+      "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for accessing and modifying directory services, such as Active Directory."
+    },
+    {
+      "question": "What is Group Policy?",
+      "answer": "Group Policy is a feature of Active Directory that allows administrators to define and enforce settings for users and computers in the network."
+    },
+    {
+      "question": "What is Kerberos?",
+      "answer": "Kerberos is a network authentication protocol that is used to authenticate users and services."
+    },
+    {
+      "question": "What is DNS?",
+      "answer": "DNS (Domain Name System) is a hierarchical naming system used for translating domain names into IP addresses."
+    },
+    {
+      "question": "What is the difference between a user account and a computer account?",
+      "answer": "A user account is used to authenticate a user and manage their access to resources on the network, while a computer account is used to authenticate a computer and manage its access to network resources."
+    },
+    {
+      "question": "What is an OU?",
+      "answer": "An OU (Organizational Unit) is a container object in Active Directory used to group users, computers, and other objects for easier management."
+    },
+    {
+      "question": "How can you prevent a user from logging in?",
+      "answer": "You can prevent a user from logging in by disabling their user account or by removing their access to log on locally or remotely."
+    },
+    {
+      "question": "How can you reset a user’s password?",
+      "answer": "You can reset a user’s password by using the Active Directory Users and Computers console, the command line, or PowerShell."
+    },
+    {
+      "question": "What is a service account?",
+      "answer": "A service account is a special type of account used to run a service or application on a computer, such as a web server or database."
+    },
+    {
+      "question": "What is a GPO?",
+      "answer": "A GPO (Group Policy Object) is a collection of settings that define how a group of users or computers behave on a network."
+    },
+    {
+      "question": "What is delegation?",
+      "answer": "Delegation is the process of assigning administrative tasks and permissions to users or groups in Active Directory."
+    },
+    {
+      "question": "What is the best way to monitor Active Directory?",
+      "answer": "The best way to monitor Active Directory is to use monitoring tools, such as Microsoft System Center Operations Manager (SCOM) or third-party software."
+    }
+
+]
